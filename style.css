@@ -171,3 +171,51 @@ h2
     font-weight: 700;
     align-self: flex-end;
 }
+
+
+/*---------------- styling call to action section -----------*/
+
+.cta
+{
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container
+{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #3882f6;
+    padding: 50px;
+    width: 60vw;
+    border-radius: 15px;
+}
+
+.cta-container .cta-text h2, .cta-container .cta-text p
+{
+    color: #f9faf8;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.cta-container .cta-text h2
+{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-container button
+{
+    background-color: #3882f6;
+    padding: 0px 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+
+ 
+}
