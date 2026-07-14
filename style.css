@@ -219,3 +219,17 @@ h2
 
  
 }
+
+/* -------------- Styling Footer section --------------- */
+footer
+{
+    background-color: #1f2937;
+}
+
+footer p
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    color: #E5E7Eb;
+}
