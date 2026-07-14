@@ -137,3 +137,37 @@ h2
     color: #1f2937;
 }
 
+
+/*-------------- styling quote ----------------*/
+
+.quote
+{
+    display: flex;
+    background-color: #E5E7Eb;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.quote div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    width: 60%;
+}
+.quote-text
+{
+
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-author
+{
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-end;
+}
